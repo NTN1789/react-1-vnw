@@ -1,38 +1,64 @@
+html {
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: #89167F;
+}
+
+h1 {
+  color: tomato;
+}
+
+h1:hover {
+  background-color: linear-gradient(red, blue, green, yellow);
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  background-color: #F1AF35;
+  border-radius: 30px;
+  color: red;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transform: rotate(360deg);
+}
+
+.card figcaption {
+  transition: 0.5s;
+}
+
+.card figcaption:hover {
+  color: tomato;
+  transform: rotate3d(1,1,1,360deg);
+}
+
+footer {
+  background-color: darkgray;
+  width: 100%;
+  text-align: center;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,0 +1,3 @@
+<Person fullName="Pedro" img="https://upload.wikimedia.org/wikipedia/commons/8/86/Astrud_Gilberto_1966.jpg" address="Casa"></Person>
+      <Person fullName="Mateus" img="https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322868/golden-retriever-puppy.jpg" address="Casa"></Person>
+      <Person fullName="Lobo bobo" img="https://i.pinimg.com/736x/ba/72/17/ba7217cff56b74bd3783a87f86f727cf--pork-wolves.jpg" address="Torre"></Person>
